@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - EduBlog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="bg-dark text-white text-center p-4">
+      <h1>EduBlog</h1>
+      <button class="nav-toggle btn btn-outline-light">☰</button>
+      <nav>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="index.html" class="text-white">Home</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="about.html" class="text-white">About</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="blog.html" class="text-white">Blog</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="contact.html" class="text-white">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container mt-4">
+      <h2>Blog Posts</h2>
+      <form id="search-form" class="mb-4">
+        <div class="form-group">
+          <label for="search-query">Search:</label>
+          <input
+            type="text"
+            id="search-query"
+            name="search-query"
+            class="form-control"
+            placeholder="Search for blog posts..."
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+      <article>
+        <h3><a href="post.html"> Blog Post</a></h3>
+        <p>This is a summary of the blog post. Click the title to read more.</p>
+      </article>
+    </main>
+    <footer class="bg-dark text-white text-center p-3">
+      <p>&copy; 2025 EduBlog. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
